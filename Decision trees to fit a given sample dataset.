@@ -4,3 +4,5 @@
 
 >>> print(model.predict([ [0.2, 0.8], [0.5, 0.4] ]))
 [[ 0., 1.]]
+
+>>> model = DecisionTreeClassifier(max_depth = 7, min_samples_leaf = 10)
