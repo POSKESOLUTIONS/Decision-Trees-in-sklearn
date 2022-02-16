@@ -1,0 +1,6 @@
+>>> from sklearn.tree import DecisionTreeClassifier
+>>> model = DecisionTreeClassifier()
+>>> model.fit(x_values, y_values)
+
+>>> print(model.predict([ [0.2, 0.8], [0.5, 0.4] ]))
+[[ 0., 1.]]
